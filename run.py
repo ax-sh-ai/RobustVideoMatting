@@ -8,7 +8,7 @@ from inference import convert_video
 
 convert_video(
     model,                           # The model, can be on any device (cpu or cuda).
-    input_source='video.mp4',        # A video file or an image sequence directory.
+    input_source='video.webm',        # A video file or an image sequence directory.
     output_type='video',             # Choose "video" or "png_sequence"
     output_composition='output/com.mp4',    # File path if video; directory path if png sequence.
     output_alpha="output/mask.mp4",          # [Optional] Output the raw alpha prediction.
